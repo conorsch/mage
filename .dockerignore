@@ -1,0 +1,7 @@
+# ignore everything by default
+**
+# then selectively readd directories
+!Mage*/
+!pom.xml
+!Makefile
+!repository/
