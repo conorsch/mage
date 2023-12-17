@@ -35,7 +35,7 @@ RUN chown user:user -R /opt/freemage
 WORKDIR /opt/freemage/server
 
 # Run start server script
-CMD ["/opt/freemage/startServer.sh"]
+CMD ["/opt/freemage/server/startServer.sh"]
 
 # Run webserver to share client zip. It's not static, so unlikely
 # to work on all targets.
